@@ -1,3 +1,5 @@
+import { metadata } from '../layout';
+
 export default function AboutUs() {
   return (
     <div>
