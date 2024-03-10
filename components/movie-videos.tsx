@@ -2,9 +2,10 @@ import { API_URL } from '../app/(Home)/page';
 
 async function getVideos(id: string) {
   await new Promise((resolve) => setTimeout(resolve, 5000));
-  const res = await fetch(`${API_URL}/${id}/videos`);
-  const json = res.json();
-  return json;
+  throw new Error('something was wrong...');
+  // const res = await fetch(`${API_URL}/${id}/videos`);
+  // const json = res.json();
+  // return json;
 }
 
 export default async function MovieVideos({ id }: { id: string }) {
