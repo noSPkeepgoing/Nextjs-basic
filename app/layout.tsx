@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import Navigation from '../components/navigation';
 
 export const metadata: Metadata = {
-  title: { template: '%s | Next JS App', default: 'Next JS App' },
+  title: { template: '%s | Movie App', default: 'Movie App' },
 };
 
 export default function RootLayout({
